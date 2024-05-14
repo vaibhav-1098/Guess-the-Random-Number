@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Guess The Random Number </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head><body>
+<!-- START -->
+    
+<h1 class="text-center m-4 text-3xl underline">
+    Guess The Random <br> 
+    <span>Number from 1-100</span>
+</h1>
+
+<!-- input -->
+<form class="flex flex-col justify-center items-center gap-4 my-10">
+    <input type="number" id="num" placeholder="Enter The Number :" class="bg-slate-200 p-2 rounded-md border-solid border-2 border-orange-500" required>
+    <input type="submit" id="submit" value="Check" class="bg-blue-500 text-wh p-2 rounded-md cursor-pointer">
+</form>
+
+<!-- display -->
+<div class="display text-center text-2xl">
+</div>
+
+<!-- play again -->
+<button class="bg-yellow-300 text-wh p-2 rounded-md mx-auto relative top-9 block" id="playAgain">
+    Play Again ⭮
+</button>
+
+
+<!-- END -->
+<script src="script.js"></script>
+</body></html>
